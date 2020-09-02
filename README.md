@@ -51,3 +51,13 @@ pip install jupyter
 # 仮想環境から抜けるには
 % deactivate
 ```
+
+## 7章のデータをダウンロード＆解凍
+
+```
+-> % cd 7
+-> % curl -o data/data.tar.gz --create-dirs http://ai.stanford.edu/\~amaas/data/sentiment/aclImdb_v1.tar.gz
+-> % tar xzf data/data.tar.gz -C data
+```
+
+GNUのtarには-Cオプションという「オプションで指定したディレクトリに移動してからコマンドを開始する」というものがある
