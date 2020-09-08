@@ -44,7 +44,7 @@ pip install jupyter
 
 ```bash
 # 特定のプロジェクト内で
-% python3 -m venv [仮想環境名(venvにしとくといいよ)]
+% python3 -m venv [仮想環境名(venvにしとくといいよ)] # use: $ python3 -m venv venv
 % source venv/bin/activate
 # これでpipをするとvenv内の実行環境にライブラリがインストールされるから環境が汚染されない!
 
